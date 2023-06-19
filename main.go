@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	for i := 1; i <= 100; i++ {
-		if i % 3 == 0 && i % 5 == 0 {
+		if i % 2 != 0 && i % 5 == 0 {
 			fmt.Println("PingPang")
 		}else if i % 2 != 0 {
 			fmt.Println("Ping")
